@@ -48,8 +48,8 @@ public:
 			cout << "\nStack is empty." << endl;
 		}
 		else {
-			for (int top = 0; top <= top; top++) {
-				cout << stack_array[top] << endl;
+			for (int tmp = 0; tmp <= top; tmp++) {
+				cout << stack_array[tmp] << endl;
 			}
 		}
 	}
@@ -73,8 +73,24 @@ int main() {
 			cout << "\nEnter a element: ";
 			string element;
 			getline(cin, element);
-			
+			s.push(element);
+			break;
 		}
+		case '2':
+			if (s.empty()) {
+				cout << "\nStack is empty." << endl;
+				break;
+			}
+			s.pop();
+			break;
+		case '3':
+			s.display();
+			break;
+		case '4':
+			return 0;
+		default:
+			cout << "\nInvalid choice." << endl;
+			break;
 		}
 	}
 }
