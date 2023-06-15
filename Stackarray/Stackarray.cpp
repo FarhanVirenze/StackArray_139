@@ -72,7 +72,8 @@ int main() {
 		case '1': {
 			cout << "\nEnter a element: ";
 			string element;
-
+			getline(cin, element);
+			
 		}
 		}
 	}
