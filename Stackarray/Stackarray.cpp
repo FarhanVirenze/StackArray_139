@@ -47,9 +47,17 @@ public:
 		if (empty()) {
 			cout << "\nStack is empty." << endl;
 		}
-		else
+		else {
+			for (int top = 0; top <= top; top++) {
+				cout << stack_array[top] << endl;
+			}
+		}
 	}
 };
+
+int main() {
+	
+}
 
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
