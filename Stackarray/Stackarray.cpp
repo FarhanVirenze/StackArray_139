@@ -56,7 +56,8 @@ public:
 };
 
 int main() {
-	
+	StackArray s;
+
 }
 
 
